@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Data
-class AuthRequest {
+public class AuthRequest {
     @NotBlank
     @Email
     private String email;
